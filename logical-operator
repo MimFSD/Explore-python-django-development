@@ -1,0 +1,18 @@
+# Define variables
+a = True
+b = False
+c = True
+
+# Using 'and'
+print(a and b)  # Output: False (because b is False)      all must be true 
+
+# Using 'or'
+print(a or b)   # Output: True (because a is True)       just one true
+
+# Using 'not'
+print(not a)    # Output: False (because a is True)
+
+# Combining logical operators
+print(a and not b)  # Output: True (because a is True and not b is True)
+print(a or (b and c))  # Output: True (because a is True, so the whole expression is True)
+print((not a or b) and c)  # Output: True (because not a is False, b is False, so we need to check c, which is True)
